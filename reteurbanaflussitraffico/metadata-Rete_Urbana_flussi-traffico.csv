@@ -1,0 +1,14 @@
+COLONNA,TIPO,DESCRIZIONE
+"INIZIO,N,11,0",NUMERO,identificativo del nodo di inizio dell' arco
+"FINE,N,11,0",NUMERO,identificativo del nodo di fine dell' arco
+"STRADA,C,20",TESTO,nome tratta (nome della strada x l'arco in questione)
+"DA,C,20",TESTO,strada perpendicolare di inizio tratta (che incrocia la tratta all'inizio di essa)
+"A,C,20",TESTO,strada perpendicolare di fine tratta (che incrocia la tratta alla fine di essa)
+"V0,N,19,15",NUMERO,Velocità ad arco scarico (in ora di morbida o quella prevista dal limite) per la corsia di andata
+"R_V0,N,19,15",NUMERO,Velocità ad arco scarico (in ora di morbida o quella prevista dal limite) per la corsia di ritorno
+"Veq_A,N,9,0",NUMERO,Veicoli equivalenti all'ora di punta della mattina[7:30-8:30] per la corsia di andata
+"Veq_R,N,9,0",NUMERO,Veicoli equivalenti all'ora di punta della mattina[7:30-8:30] per la corsia di ritorno
+"Xi,N,9,0",NUMERO,Coordinate geografiche X del nodo di inizio arco (indicative)
+"Yi,N,9,0",NUMERO,Coordinate geografiche Y del nodo di inizio arco (indicative)
+"Xf,N,9,0",NUMERO,Coordinate geografiche X del nodo di fine arco (indicative)
+"Yf,N,9,0",NUMERO,Coordinate geografiche Y del nodo di fine arco (indicative)
